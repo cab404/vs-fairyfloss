@@ -1,0 +1,29 @@
+{
+  "name": "fairyfloss",
+  "publisher": "cab404",
+  "displayName": "🌙💫☁️ fairyfloss 🌟",
+  "description": "Fairyfloss theme port",
+  "author": "cab <cab404@mailbox.org>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": "https://github.com/cab404/vs-fairyfloss.git",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "fairyfloss",
+        "uiTheme": "vs-dark",
+        "path": "./fairyfloss.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "ovsx": "^0.5.1",
+    "vsce": "^2.11.0"
+  }
+}

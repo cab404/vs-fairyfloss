@@ -1,0 +1,5 @@
+.vscode-test/**
+.direnv
+*.vsix
+yarn-error.log
+node_modules
